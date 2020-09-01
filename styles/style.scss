@@ -1,0 +1,9 @@
+@import "./variables";
+@import "./header";
+
+.contact {
+  @extend header;
+  background: lightblue ;
+  width: 100% - 10%;
+  margin: auto;
+}
